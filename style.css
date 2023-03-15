@@ -1,0 +1,131 @@
+body{
+  width: 100%;
+  height: 100vh;
+  overflow-x: hidden;
+  background-image: linear-gradient(#FFFFFF 100%,#FFF4F4 100%);
+}
+.container{
+  display: flex;
+  flex-direction: column;
+}
+.logo{
+  width: 100px;
+  height: 21px;
+  margin-left: 32px;
+  margin-bottom: 40px;
+  margin-top: 32px;
+}
+.hero-mobile{
+  display: block;
+  width: 100%;
+  margin-bottom: 50px;
+}
+.we-are{
+  font-size: 40px;
+  font-weight: 400;
+  font-family:Josefin Sans ;
+  color:#CE9898;
+  text-align: center;
+  margin-bottom: 15px;
+}
+.soon{
+  text-align: center;
+  font-weight: 600;
+  font-size: 40px;
+  font-family: Josefin Sans;
+  color: #423A3A;
+  margin-bottom: 16px;
+}
+.hello{
+  font-size: 14px;
+  font-family:Josefin Sans ;
+  line-height: 22px;
+  font-weight: 400;
+  color: #CE9898;
+  text-align: center;
+  margin-bottom: 32px;
+  margin-left: 32px;
+  margin-right: 32px;
+}
+.email-address{
+  width: 311px;
+  height: 48px;
+  border-radius: 28px;
+  opacity: 50%;
+  margin: auto;
+  font-size: 14px;
+  margin: auto;
+  font-family:Josefin Sans ;
+  font-weight: 400;
+  padding-left: 24px;
+  border-color:#CE9898;
+  color: black;
+  border-style: solid;
+  color: #EE8B8B;
+}
+form{
+  margin: auto;
+}
+
+.div-row{
+  border-radius: 28px;
+  margin-left: 275px;
+  margin-top: -52px;
+  width: 64px;
+  height: 50px;
+  background-image: linear-gradient(#F8BFBF,#EE8B8B );
+  box-shadow: 3px 3px 3px #CE9898;
+}
+.arrow{
+  margin-left: 30px;
+  margin-top: 13px;
+}
+.text-div{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 92px;
+}
+.desktop-photo{
+  display: none;
+}
+@media (min-width:1024px){
+  body{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-image: url(https://i.postimg.cc/8P2BB1XY/Group-9-1.png);
+    background-repeat: no-repeat;
+    /* gap: 100px; */
+  }
+  .desktop-photo{
+    display: block;
+  }
+  .hero-mobile{
+    display: none;
+  }
+  .logo{
+    width: 160px;
+    height: 40px;
+    margin-left: 165px;
+    margin-bottom: 131px;
+  }
+  .we-are{
+    font-size: 65px;
+    margin-left: 0px;
+  }
+  .text-div{
+    margin-left: 165px;
+    align-items: start;
+    justify-content: start;
+  }
+  .hello{
+    margin-left: 0px;
+    margin-bottom: 40px;
+  }
+  .soon{
+    margin-bottom: 32px;
+  }
+
+}
