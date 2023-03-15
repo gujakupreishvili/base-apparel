@@ -114,6 +114,8 @@ form{
   .we-are{
     font-size: 65px;
     margin-left: 0px;
+    text-align: start;
+    width: 444px;
   }
   .text-div{
     margin-left: 165px;
@@ -123,9 +125,17 @@ form{
   .hello{
     margin-left: 0px;
     margin-bottom: 40px;
+    text-align: start;
+    font-size: 18px;
+    line-height: 28px;
+    width: 444px;
   }
   .soon{
     margin-bottom: 32px;
+    text-align: start;
+    font-size: 64px;
+    width: 444px;
+    line-height: 71px;
   }
 
 }
